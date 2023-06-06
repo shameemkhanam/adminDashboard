@@ -1,0 +1,106 @@
+<div class="main_container">
+    <div class="container mt-3">
+        <mat-toolbar>
+            <button mat-icon-button class="example-icon" [matMenuTriggerFor]="apps"
+                aria-label="Example icon-button with menu icon">
+                <mat-icon>apps</mat-icon>
+            </button>
+            <mat-menu #apps="matMenu" yPosition="below">
+                <!-- <button mat-menu-item>Item 1</button>
+                <button mat-menu-item>Item 2</button> -->
+                <div class="appss">
+                    <h5 class="p-3">Applications</h5>
+                </div>
+                <div class="apps_menu">
+                    <button mat-menu-item class="example-card">
+                        <img mat-card-image src="../../../assets/chat.png">
+                        <p style="font-size: 14px; margin-bottom: 0;">Chat</p>
+                    </button>
+                    <button mat-menu-item class="example-card">
+                        <img mat-card-image src="../../../assets/calendar.png" width="24">
+                        <p style="font-size: 14px; margin-bottom: 0;">Calendar</p>
+                    </button>
+                    <button mat-menu-item class="example-card">
+                        <img mat-card-image src="../../../assets/task.png" width="24">
+                        <p style="font-size: 14px; margin-bottom: 0;">Task</p>
+                    </button>
+                    <button mat-menu-item class="example-card">
+                        <img mat-card-image src="../../../assets/mail.png" width="24">
+                        <p style="font-size: 14px; margin-bottom: 0;">Mail</p>
+                    </button>
+                    <button mat-menu-item class="example-card">
+                        <img mat-card-image src="../../../assets/table.png" width="24">
+                        <p style="font-size: 14px; margin-bottom: 0;">Table</p>
+                    </button>
+                    <button mat-menu-item class="example-card">
+                        <img mat-card-image src="../../../assets/contact.png" width="24">
+                        <p style="font-size: 14px; margin-bottom: 0;">Contact</p>
+                    </button>
+                    <button mat-menu-item class="example-card">
+                        <img mat-card-image src="../../../assets/support.png" width="24">
+                        <p style="font-size: 14px; margin-bottom: 0;">Support</p>
+                    </button>
+                    <button mat-menu-item class="example-card">
+                        <img mat-card-image src="../../../assets/gallery.png" width="24">
+                        <p style="font-size: 14px; margin-bottom: 0;">Gallery</p>
+                    </button>
+                </div>
+            </mat-menu>
+            <span class="example-spacer"></span>
+            <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+                <mat-icon>crop_free</mat-icon>
+            </button>
+            <button mat-icon-button class="example-icon" [matMenuTriggerFor]="lang"
+                aria-label="Example icon-button with share icon">
+                <img src="../../../assets/usFlag.jpg" alt="">
+            </button>
+            <mat-menu #lang="matMenu">
+                <button mat-menu-item class="langMenuItems"><img src="../../../assets/usFlag.jpg" width="18"
+                        class="me-2" alt="">English</button>
+                <button mat-menu-item class="langMenuItems"><img src="../../../assets/spain.jpg" width="18" class="me-2"
+                        alt="">Spanish</button>
+                <button mat-menu-item class="langMenuItems"><img src="../../../assets/germany.jpg" width="18"
+                        class="me-2" alt="">German</button>
+            </mat-menu>
+            <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+                <mat-icon>notifications</mat-icon>
+            </button>
+            <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+                <p>Ella Jones</p>
+            </button>
+            <button mat-icon-button class="example-icon ms-3" [matMenuTriggerFor]="user"
+                aria-label="Example icon-button with share icon">
+                <mat-icon>account_circle</mat-icon>
+            </button>
+            <mat-menu #user="matMenu" xPosition="before" class="profileMenu">
+                <button mat-menu-item class="profileMenuItem"><mat-icon
+                        class="text-light">person</mat-icon>Account</button>
+                <button mat-menu-item class="profileMenuItem"><mat-icon
+                        class="text-light">email</mat-icon>Inbox</button>
+                <button mat-menu-item class="profileMenuItem"><mat-icon
+                        class="text-light">settings</mat-icon>Settings</button>
+                <button mat-menu-item class="profileMenuItem"><mat-icon
+                        class="text-light">logout</mat-icon>Logout</button>
+            </mat-menu>
+        </mat-toolbar>
+
+        <!-- heading with bread crumb -->
+        <div class="mt-3 d-flex align-items-center justify-content-between">
+            <h5 class="text-secondary">Dashboard</h5>
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb text-secondary">
+                    <li class="breadcrumb-item"><mat-icon>home</mat-icon></li>
+                    <li class="breadcrumb-item active text-secondary" aria-current="page">Home</li>
+                    <li class="breadcrumb-item  text-secondary" aria-current="page">Dashboard</li>
+                </ol>
+            </nav>
+        </div>
+
+        <!-- cards section -->
+        <div class="row">
+            <div class="col-md-3">
+                
+            </div>
+        </div>
+    </div>
+</div>

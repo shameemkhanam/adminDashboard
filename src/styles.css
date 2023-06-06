@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+:root{
+    --background-color: #181e2c;
+    --grey-color: #96a2b4;
+    --white-font:#ffffff;
+    --sidenav-dark-bg:#1c1c2f00;
+    --main-toolbar-bg:#1d1d2e00;
+    --active-sidenav-item:#11111c00;
+}

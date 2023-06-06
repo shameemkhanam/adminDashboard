@@ -1,0 +1,75 @@
+.main_container {
+  /* background-color: #161624; */
+  height: 100%;
+  color: white;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.container {
+  width: 96.5%;
+}
+
+mat-toolbar {
+  background-color: #161624;
+  color: white;
+  border-radius: 5px;
+}
+
+.example-icon img {
+  height: 20px;
+  width: 26px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.example-icon p {
+  font-size: 14px;
+}
+
+.appss {
+  width: 100%;
+  border-bottom: 1px solid black;
+  background-color: blue;
+  padding: 5px;
+}
+
+.example-card {
+  margin-right: 0px;
+  text-align: center;
+  background-color: #161624;
+  /* width: 85px; */
+  width: 100%;
+  height: 90px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.example-card:hover {
+  background-color: black;
+}
+.langMenuItems {
+  background-color: #161624;
+  color: white;
+}
+.langMenuItems:hover{
+  background-color: black;
+}
+/* .apps_menu {
+  display: flex;
+  flex-direction: row;
+} */
+/* .apps_menu button.mat-menu-item{
+  margin-right: 10px; /* Adjust the spacing between items as needed */
+/* }*/
+
+.profileMenuItem{
+  background-color: #161624;
+  color: white;
+}
+.profileMenuItem:hover{
+  background-color: black;
+}
